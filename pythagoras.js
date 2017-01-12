@@ -5,7 +5,7 @@ var input = [
 ];
 var result = input.map(function(twoSides) {
   /* Your code here */
-  return Math.sqrt(twoSides.x*twoSides.x + twoSides.y*twoSides.y);
+  return Math.sqrt(twoSides.x * twoSides.x + twoSides.y * twoSides.y);
 });
 
 console.log(result[0] === 5);
